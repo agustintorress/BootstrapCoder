@@ -1,0 +1,24 @@
+body::before {
+    display: block;
+    content:" " ;
+    height: 60px;
+
+}
+
+.btncard{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 5px;
+}
+
+@media(min-width: 768px){
+    .news-input {
+        width: 50%;
+    }
+} 
+
+@media(min-width: 500px){
+    .news-input {
+        width: 100%;
+    }
+} 
